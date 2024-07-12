@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Javascrpit</title>
+   
+</head>
+<body>
+  <h>I am heading</h>
+  <br>
+  <script>
+
+function myTag(strings,...values){
+  console.log(strings);
+  console.log(values);
+  return 'Processed result';
+}
+
+const name='John';
+const age=30;
+const result=myTag`Hello, my name is ${name} and i am ${age} years old.`;
+console.log(result);
+
+  </script>
+
+</body>
+</html>
